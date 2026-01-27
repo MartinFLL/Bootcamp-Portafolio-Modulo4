@@ -1,8 +1,8 @@
 import clientlib, cataloglib, exceptionslib
 
 class Admin(clientlib.Client): # Admin hereda de Client y Client hereda de User
-    def __init__(self, name):
-        super().__init__(name)
+    def __init__(self, __name):
+        super().__init__(__name)
 
 # Crear nuevo producto
     def create_product(self, id, name, category, price):

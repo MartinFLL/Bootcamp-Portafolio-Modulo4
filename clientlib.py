@@ -1,6 +1,8 @@
 import userlib, shopping_cartlib, cataloglib, exceptionslib
 
-class Client(userlib.User, shopping_cartlib.ShoppingCart): # Rol cliente
+# Rol cliente
+
+class Client(userlib.User, shopping_cartlib.ShoppingCart): 
     def __init__(self, name):
         self.name = name
         self.shopping_cart = shopping_cartlib.ShoppingCart()
