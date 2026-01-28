@@ -63,4 +63,10 @@ catalog = [{
         "nombre": "iPhone 13",
         "categoria": "tecnologia",
         "precio": 759990
+    },
+    {
+        "id": 12,
+        "nombre": "iPhone Nuevemilnovecientosnoventaynueve",
+        "categoria": "tecnologia",
+        "precio": 9999999999999999999
     }]
